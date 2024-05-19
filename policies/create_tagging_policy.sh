@@ -1,5 +1,5 @@
 #!/bin/bash
-subscription="ae905fde-e5ea-40f0-a6db-35397678cc4c"
+subscription="$AZ_SUBCRIPTION_ID"
 policyName="tagging-policy"
 
 MSYS_NO_PATHCONV=1 az policy definition create \
